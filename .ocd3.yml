@@ -5,7 +5,6 @@ build:
 deploy:
   bash_commands: "echo 'deploying...'"
   artifact:
-    packaging: "jar"
     artifactId: "openmrs-eip-client"
     groupId: "net.mekomsolutions.eip"
     version: "1.0.0-SNAPSHOT"
